@@ -56,161 +56,50 @@ The dataset simulates realistic operational delivery scenarios similar to modern
 
 ---
 
-# Current Project Status
+# Current Progress — Phase 1
 
-## Phase 1 — Exploratory Operations Analysis
+Current work focuses on:
 
-Current focus areas:
-
-- operational data exploration
+- exploratory operational analysis
 - delivery KPI analysis
-- time-based operational patterns
 - ETA reliability analysis
+- operational pattern analysis
 - outlier investigation
-- operational data quality assessment
 - preparation for future machine learning workflows
 
 ---
 
-# Initial Operational Findings
+# Initial Findings
 
-## Delivery Reliability Challenges
-
-Approximately 35% of deliveries exceeded the upper estimated delivery time threshold, indicating opportunities for improving ETA reliability and operational planning.
-
-## Operational Variability
-
-Delivery times show a positively skewed distribution with occasional long-tail delays, suggesting the presence of operational bottlenecks and anomalous delivery situations.
-
-## Peak Demand Periods
-
-Order volume analysis reveals strong hourly demand concentration during daytime and evening periods, highlighting operational pressure windows that may affect delivery performance.
-
-## Category-Based Delivery Differences
-
-Food delivery orders generally exhibit longer delivery durations compared to retail deliveries, likely due to preparation and pickup-related operational factors.
-
-## Data Quality Challenges
-
-The dataset contains realistic missing values and extreme operational outliers, reflecting common real-world logistics data engineering challenges.
-
-## Spatial Complexity
-
-The delivery network spans:
-
-- 143 unique venue regions
-- 381 unique customer regions
-
-This highlights the complexity of urban delivery operations and creates opportunities for future geospatial analytics.
+- Approximately 35% of deliveries exceeded the upper ETA estimate.
+- Delivery times exhibit right-skewed operational behavior with long-tail delays.
+- Strong hourly demand peaks suggest operational pressure periods.
+- Food deliveries generally take longer than retail deliveries.
+- The dataset contains realistic operational outliers and missing values.
+- The delivery network spans 143 venue regions and 381 customer regions.
 
 ---
 
-# Outlier Investigation
+# Planned Roadmap
 
-Initial exploratory analysis identified several extremely large delivery durations, including observations exceeding 15,000 minutes.
+## Phase 2
+Feature engineering and operational KPI expansion
 
-Since delivery durations above 60 minutes are operationally unusual in the context of urban food delivery operations, a filtered operational analysis dataset is being prepared for future analysis and modeling.
+## Phase 3
+Delivery delay prediction models using machine learning
 
-This process demonstrates real-world operational data validation and anomaly investigation workflows.
+## Phase 4
+Root cause analysis of operational delays
 
----
+## Phase 5
+Geospatial delivery intelligence using H3 indexes
 
-# Skills Demonstrated
-
-## Data Analytics
-
-- Exploratory Data Analysis (EDA)
-- KPI analysis
-- operational analytics
-- business insight generation
-- anomaly detection
-
-## Programming & Data Processing
-
-- Python
-- Pandas
-- NumPy
-- data cleaning
-- feature engineering
-
-## Visualization
-
-- Matplotlib
-- operational reporting
-- trend visualization
-
-## Business & Operations Understanding
-
-- logistics operations analysis
-- delivery reliability analysis
-- operational bottleneck identification
-- ETA performance evaluation
+## Phase 6
+Operational dashboarding and business intelligence reporting
 
 ---
 
-# Planned Future Phases
-
-## Phase 2 — Feature Engineering
-
-Planned features include:
-
-- rush-hour indicators
-- weekend flags
-- ETA error metrics
-- weather impact indicators
-- courier supply pressure metrics
-- operational delay targets
-- geospatial aggregation features
-
----
-
-## Phase 3 — Predictive Modeling
-
-Future machine learning objectives:
-
-- predict actual delivery time
-- predict probability of delivery delays
-- identify major operational risk factors
-
-Potential models:
-
-- Linear Regression
-- Logistic Regression
-- Random Forest
-- XGBoost
-- Gradient Boosting Models
-
----
-
-## Phase 4 — Root Cause Analysis
-
-Future analysis will focus on identifying the operational drivers behind major delivery delays and reliability issues.
-
----
-
-## Phase 5 — Geospatial Delivery Intelligence
-
-Future geospatial analytics may include:
-
-- delivery hotspot analysis
-- slow-delivery region detection
-- operational congestion mapping
-- H3-based delivery intelligence
-
----
-
-## Phase 6 — Operational Dashboarding
-
-Planned dashboard development:
-
-- delivery KPI dashboards
-- operational monitoring views
-- delay monitoring systems
-- business intelligence reporting
-
----
-
-# Technology Stack
+# Tech Stack
 
 - Python
 - Pandas
@@ -219,13 +108,12 @@ Planned dashboard development:
 - Jupyter Notebook
 - Git & GitHub
 
-Future tools may include:
-
+Future tools:
 - Scikit-learn
 - XGBoost
 - Power BI
 - Streamlit
-- H3 Geospatial Analysis
+- H3 Geospatial Analytics
 
 ---
 
