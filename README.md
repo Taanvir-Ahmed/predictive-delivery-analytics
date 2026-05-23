@@ -1,6 +1,5 @@
 # Predictive Delivery Analytics for Logistics Operations
 
-## Subtitle
 Building an operational intelligence system for delivery reliability, delay prediction, and logistics optimization using machine learning and geospatial analytics.
 
 ---
