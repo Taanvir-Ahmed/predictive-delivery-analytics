@@ -3,19 +3,19 @@ __pycache__/
 *.pyc
 .venv/
 venv/
-
-# Jupyter
 .ipynb_checkpoints/
+
+# IDE
+.idea/
+.vscode/
+notebooks/.idea/
+
+# R
+.Rhistory
+.RData
 
 # Mac
 .DS_Store
 
-# Data outputs
+# Processed outputs
 data/processed/
-figures/*.png
-reports/*.csv
-
-# Environment
-.env.Rhistory
-.idea/
-notebooks/.idea/
