@@ -16,4 +16,6 @@ figures/*.png
 reports/*.csv
 
 # Environment
-.env
+.env.Rhistory
+.idea/
+notebooks/.idea/
